@@ -1,7 +1,7 @@
 const form = document.querySelector('.login-form');
 
-form.addEventListener('submit', hendlerSubmit);
-function hendlerSubmit(evt) {
+form.addEventListener('submit', handlerSubmit);
+function handlerSubmit(evt) {
 
     evt.preventDefault();
 
